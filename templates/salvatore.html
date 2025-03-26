@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salvatore</title>
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">My Favorite Acronym</h1>
+        <p>Salvatore Eze: FIFO- F around and find out</p>
+        
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='img/grad.jpg') }}" class="rounded w-50" alt="Random image">
+        </div>
+    </div>
+    
+    {{ bootstrap.load_js() }}
+</body>
+</html>
